@@ -8,10 +8,12 @@ brew cask install iterm2
 
 #install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 #customizing zsh
 brew install romkatv/powerlevel10k/powerlevel10k
 echo 'source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 echo 'ZSH_THEME="powerlevel10k/powerlevel10k"' >>~/.zshrc
+brew install zsh-syntax-highlighting
 
 
 
